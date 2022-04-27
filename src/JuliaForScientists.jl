@@ -1,5 +1,7 @@
 module JuliaForScientists
 
-# Write your package code here.
+greet() = print("Hello and welcome to the Julia language course @ IFIC.")
+
+export times_two
 
 end
