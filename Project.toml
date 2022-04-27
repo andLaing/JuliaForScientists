@@ -1,0 +1,13 @@
+name = "JuliaForScientists"
+uuid = "2c3dd02d-4376-4db2-bd1d-3f0e5a960e08"
+authors = ["J.J. Gómez-Cadenas <jjgomezcadenas@dipc.org>", "A. Ramos <alberto.ramos@ific.uv.es>", "A. Laing <a.b.r.laing@gmail.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
