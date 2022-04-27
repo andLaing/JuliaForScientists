@@ -26,23 +26,46 @@ languages, or previous experience in Julia.
 In short: **before** the first lecture you **should** install:
 - Julia v1.7
 - A text editor (i.e VScode)
-- [Pluto](https://github.com/fonsp/Pluto.jl). [Here installation
-  instructions](https://github.com/fonsp/Pluto.jl#installation). You
-  can also look at [this
-  video](https://www.youtube.com/watch?v=OOjKEgbt8AI). 
+- The course repository [JuliaForScientists](https://github.com/andLaing/JuliaForScientists.git). 
 
 Now the longer explanation:
 
 All students should come to the course with a working environment of
-Julia v1.7. Installing Julia is quite easy, and consists basically in
+Julia v1.7. Installing Julia is quite easy, and consists basically of
 using the [correct file for your operating
 system](https://julialang.org/downloads/). Julia can be used with your
 favorite text editor, although in the course we will try to use
 VScode. Some basic detailed instructions can be found in many on-line
 tutorials, [for example, this
-one](https://techytok.com/julia-vscode/). For fully profiting from the
+one](https://techytok.com/julia-vscode/). To fully profit from the
 course, the student **should** make an effort to consult this material
 before the first class.
+
+We also recommend that you download the course repository from
+github (https://github.com/andLaing/JuliaForScientists.git) and check
+that it works properly by activating its environment and running the
+tests:
+__from the commandline__
+```console
+<your terminal> julia
+               _
+   _       _ _(_)_     |  Documentation: https://docs.julialang.org
+  (_)     | (_) (_)    |
+   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.
+  | | | | | | |/ _` |  |
+  | | |_| | | | (_| |  |  Version 1.7.1 (2021-12-22)
+ _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
+|__/                   |
+
+julia>]
+(@v1.7) pkg> activate .
+  Activating project at `~/julia_course/test/JuliaForScientists`
+
+(JuliaForScientists) pkg> instantiate
+...
+(JuliaForScientists) pkg> test
+```
+
 
 We will use [Pluto](https://github.com/fonsp/Pluto.jl) notebooks in
 class. This will be covered in the first session, but if you get some
