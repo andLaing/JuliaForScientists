@@ -1,10 +1,11 @@
 using JuliaForScientists
 using Test
 
-@testset "JuliaForScientists.jl" begin
+
+@testset "JuliaForScientists" begin
     orig_std = stdout
     readpipe, writepipe = redirect_stdout()
-    IntroJulia.greet()
+    JuliaForScientists.greet()
     redirect_stdout(orig_std)
     close(writepipe)
     greeting = read(readpipe, String)
