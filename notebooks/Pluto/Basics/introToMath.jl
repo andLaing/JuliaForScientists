@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.18.1
+# v0.19.3
 
 using Markdown
 using InteractiveUtils
@@ -86,7 +86,7 @@ The area of a pizza is ``A = \pi r^2``.  Lets try calculating the area of a pizz
 """
 
 # ╔═╡ 50f0f6d6-d471-11ea-304e-8f72e7ef9d7e
-A =  r^2
+A =  r^2  #fixme!
 
 # ╔═╡ f907e46a-d471-11ea-07e5-f30e2aab3d08
 md"""The diameter of a pizza is often stated on a menu so let's define a **formula** to calculate the area of a pizza given the diameter **d**.
@@ -104,7 +104,7 @@ md"""Now we have a function called **area** that we can pass any diameter and it
 """
 
 # ╔═╡ 04b010c0-d473-11ea-1767-136c7e26e122
-A2 = area(r)
+A2 = area(r) #fixme
 
 # ╔═╡ edb95b14-d473-11ea-3a5a-77382d31f941
 md"""## Finding the best pizza deal
@@ -361,7 +361,7 @@ PLUTO_PROJECT_TOML_CONTENTS = """
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.7.1"
+julia_version = "1.7.2"
 manifest_format = "2.0"
 
 [deps]
@@ -380,16 +380,16 @@ manifest_format = "2.0"
 # ╠═3da812c6-d460-11ea-0170-79fbb6a4347c
 # ╟─4dff4b5e-d461-11ea-29c8-d548fdb5f08b
 # ╠═444e2fa4-d460-11ea-12aa-57e0576c2d66
-# ╠═f26d50da-d46b-11ea-0c2d-77ca13532b3d
-# ╠═d9c31dfa-d470-11ea-23b2-838975b71f7c
+# ╟─f26d50da-d46b-11ea-0c2d-77ca13532b3d
+# ╟─d9c31dfa-d470-11ea-23b2-838975b71f7c
 # ╠═3c12f2b4-d471-11ea-2d37-539f061f7cf2
 # ╠═50f0f6d6-d471-11ea-304e-8f72e7ef9d7e
-# ╠═5c4a5f22-d471-11ea-260f-9338d8bfa2d6
+# ╟─5c4a5f22-d471-11ea-260f-9338d8bfa2d6
 # ╟─f907e46a-d471-11ea-07e5-f30e2aab3d08
 # ╠═cb36a9ee-d472-11ea-1835-bf7963137e18
-# ╠═d9575e9c-d472-11ea-1eda-2d335d039f28
-# ╠═04b010c0-d473-11ea-1767-136c7e26e122
-# ╠═a07e5c3e-d476-11ea-308c-718f8f128334
+# ╟─d9575e9c-d472-11ea-1eda-2d335d039f28
+# ╟─04b010c0-d473-11ea-1767-136c7e26e122
+# ╟─a07e5c3e-d476-11ea-308c-718f8f128334
 # ╟─edb95b14-d473-11ea-3a5a-77382d31f941
 # ╠═637c26fa-d475-11ea-2c5b-2b0f4775b119
 # ╟─8700d986-d475-11ea-0d0e-790448cf92ba

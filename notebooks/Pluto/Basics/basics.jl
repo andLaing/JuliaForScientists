@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.18.1
+# v0.19.3
 
 using Markdown
 using InteractiveUtils
@@ -34,6 +34,8 @@ md"""
 # ╔═╡ 0d60f5d5-53d6-4014-af00-7a8b27a4a6a4
 md"""
 A funny quirk of Pluto is that stdoutput goes to the terminal, not to the notebook. Thus, if you use the function 'println()' for example, nothing will appear in the notebook but the result will be displayed in the terminal you launched Pluto from
+
+(NB: Recent versions of PLUTO have finally yielded to the impure of heart and allow printing to the notebook. If you are using a recent PLUTO version, you will see the text printed in your notebook)
 """
 
 # ╔═╡ c744a498-9d13-4dc3-9ede-e62190c72877
@@ -42,6 +44,8 @@ println("Pluto has a personality!")
 # ╔═╡ 2c8e97e9-1bd3-4c39-939a-62f621f62929
 md"""
 Plutonians insist on using interpolation rather than printing. If you need to print to the notebook, though, use 'with_terminal()' as below:
+
+(NB: Not needed for recent versions of Pluto)
 """
 
 # ╔═╡ 2c44ff3a-bb46-40d1-829e-17fd2b56daab
@@ -1234,7 +1238,7 @@ PlutoUI = "~0.7.38"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.7.1"
+julia_version = "1.7.2"
 manifest_format = "2.0"
 
 [[deps.AbstractPlutoDingetjes]]
@@ -1441,9 +1445,9 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 # ╠═85d79e69-faf6-42cf-9e70-00e4e6a517a6
 # ╟─6452d551-eae6-410f-a824-0d66aeec048b
 # ╟─9cb0b62b-1f52-452b-b895-a1174d834896
-# ╟─0d60f5d5-53d6-4014-af00-7a8b27a4a6a4
+# ╠═0d60f5d5-53d6-4014-af00-7a8b27a4a6a4
 # ╠═c744a498-9d13-4dc3-9ede-e62190c72877
-# ╟─2c8e97e9-1bd3-4c39-939a-62f621f62929
+# ╠═2c8e97e9-1bd3-4c39-939a-62f621f62929
 # ╠═2c44ff3a-bb46-40d1-829e-17fd2b56daab
 # ╟─dda18475-3f32-4e05-be03-518abb492a91
 # ╠═9092c9cf-d7aa-4eb6-a511-e1dd738ad488
@@ -1633,7 +1637,7 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 # ╠═1f52b11f-3a3a-41a0-9313-3b4280661ebe
 # ╠═eaaa9648-2398-42d1-8d2d-f480c182487a
 # ╟─5cb54a33-7211-472f-b98f-fe7676af1770
-# ╠═e62106d9-59e4-4f08-902a-a6c51c6ae512
+# ╟─e62106d9-59e4-4f08-902a-a6c51c6ae512
 # ╟─d8247d69-578f-4662-8b6e-dc6e6bf446f3
 # ╠═ba7d7545-913f-4cb7-8571-7bd28d6834ea
 # ╟─e98c21f9-ba54-4a13-997b-7c3794def894
