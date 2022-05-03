@@ -1,0 +1,3 @@
+[submodule "packages/MixedUtils"]
+	path = packages/MixedUtils
+	url = ./packages/MixedUtils/
